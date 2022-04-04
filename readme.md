@@ -5,7 +5,7 @@ This is a Sleep Sounds Web App (PWA) made in pure HTML, CSS, Javascript. Yes, it
 
 ## SCREENSHOTS
 <p float="left">
-  <img width="250" style="inline-block" src="https://code-boxx.com/wp-content/uploads/2022/01/js-camera-1.jpg">
+  <img width="250" style="inline-block" src="https://github.com/code-boxx/js-sleep-sounds-pwa/blob/main/assets/sleeps-sounds-pwa.png">
 </p><br>
 
 
