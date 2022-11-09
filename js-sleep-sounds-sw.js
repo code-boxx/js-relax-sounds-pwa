@@ -15,7 +15,7 @@ cFiles = [
   "js-sleep-sounds.html",
   // (A6) SOUNDS
   "assets/chimes.mp3",
-  "assets/crickets.mp3"
+  "assets/crickets.mp3",
   "assets/rain.mp3"
 ];
 
