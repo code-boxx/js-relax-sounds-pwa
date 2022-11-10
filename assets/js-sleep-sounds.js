@@ -3,32 +3,44 @@
 // RAIN - https://freesound.org/people/aesqe/sounds/37618/
 // CHIMES - https://freesound.org/people/juskiddink/sounds/131979/
 // CRIKETS - https://freesound.org/people/MrFossy/sounds/521843/
+// CAMPFIRE - https://freesound.org/people/aerror/sounds/350757/
 
 var ss = {
   // (A) INITIALIZE
   init : () => {
-    // (A1) AUDIO CHECK
+    // (A1) CHECK - AUDIO
     if (!"audio" in window) {
       alert("Your browser does not support HTML audio.");
-      return false;
+      return;
     }
 
-    // (A2) REGISTER SERVICE WORKER
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("CB-worker.js")
-      .then(reg => ss.draw())
-      .catch(err => {
-        alert(err.message);
-        console.error(err);
-      });
+    // (A2) CHECK - SERVICE WORKER
+    if (!"serviceWorker" in navigator) {
+      alert("Your browser does not support service workers.");
+      return;
     }
+
+    // (A3) CHECK - CACHE STORAGE
+    if (!"caches" in window) {
+      alert("Your browser does not support cache storage.");
+      return;
+    }
+
+    // (A4) REGISTER SERVICE WORKER
+    navigator.serviceWorker.register("CB-worker.js")
+    .then(reg => ss.draw())
+    .catch(err => {
+      alert(err.message);
+      console.error(err);
+    });
   },
 
   // (B) AVAILABLE SOUNDS - FEEL FREE TO ADD YOUR OWN
   sounds : [
     { name: "Rain", ico: "grain", src: "rain.mp3" },
     { name: "Chimes", ico: "notifications_active", src: "chimes.mp3" },
-    { name: "Crickets", ico: "emoji_nature", src: "crickets.mp3" }
+    { name: "Crickets", ico: "emoji_nature", src: "crickets.mp3" },
+    { name: "Campfire", ico: "local_fire_department", src: "campfire.mp3" }
   ],
 
   // (C) DRAW SOUND BUTTONS
