@@ -4,9 +4,11 @@
 
 /* (B) GLOBAL */
 html, body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0; padding: 0;
   color: #fff;
   background: #0a1e39;
-  margin: 0; padding: 0;
 }
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +21,7 @@ html, body {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-gap: 30px 10px;
   max-width: 600px;
-  margin: 0 auto; padding: 10px;
+  margin: 0 auto; padding: 20px 10px;
 }
 
 /* (D) BUTTON ICON & TEXT */
@@ -38,4 +40,47 @@ html, body {
 .sound.playing .mi {
   color: #000;
   background: #fff;
+}
+
+/* (X) ABOUT */
+#aboutFoot {
+  padding : 10px 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #9b9b9b;
+  cursor: pointer;
+}
+#aboutWrap {
+  position:absolute; top: 0; left: 0; z-index: 999;
+  width: 100vw; height: 100%; min-height: 100vh;
+  padding: 0; margin: 0; border: 0;
+  background: rgba(0,0,0,0.5);
+}
+#aboutWrap:is([open]) {
+  display: flex; flex-wrap: wrap;
+  align-items: center; justify-content: center;
+}
+#aboutWrap:is([open]) #aboutPop {
+  position: relative;
+  background: #fff;
+}
+#aboutCX {
+  position: absolute;
+  top: 0; right: 0;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--bg-color-c);
+  cursor: pointer;
+  background: #fff;
+}
+#aboutHead {
+  width: 100%;
+  max-height: 350px;
+  object-fit: contain;
+}
+#aboutLinks {
+  padding: 20px;
 }
