@@ -9,6 +9,7 @@ html, body {
   margin: 0; padding: 0;
   color: #fff;
   background: #0a1e39;
+  overflow-x: hidden;
 }
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -67,7 +68,7 @@ html, body {
 }
 #aboutCX {
   position: absolute;
-  top: 0; right: 0;
+  top: 5px; right: 5px;
   border-radius: 50%;
   padding: 10px;
   font-size: 30px;
