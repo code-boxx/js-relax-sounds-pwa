@@ -2,23 +2,23 @@
 This is a Sleep Sounds Web App (PWA) made in pure HTML, CSS, Javascript. Yes, it is capable of running offline completely.
 <br><br>
 
-## SCREENSHOTS
+## :camera: SCREENSHOTS
 <p float="left">
   <img width="250" src="https://github.com/code-boxx/js-sleep-sounds-pwa/blob/main/assets/sleeps-sounds-pwa-1.png">
   <img width="250" src="https://github.com/code-boxx/js-sleep-sounds-pwa/blob/main/assets/sleeps-sounds-pwa-2.png">
 </p><br>
 
-## REQUIREMENTS
+## :ballot_box_with_check: REQUIREMENTS
 1) "Grade A" browser. With support for service worker, cache storage.
 2) https:// is required for the features to work.
 3) http://localhost works fine for testing too.
 <br><br>
 
-## DOCUMENTATION
+## :bulb: DOCUMENTATION
 Please visit https://code-boxx.com/javascript-sleep-sounds-pwa/ for the documentation.
 <br><br>
 
-## LICENSE
+## :newspaper: LICENSE
 Copyright by Code Boxx
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
