@@ -1,11 +1,11 @@
-## JS SLEEP SOUNDS PWA
-This is a Sleep Sounds Web App (PWA) made in pure HTML, CSS, Javascript. Yes, it is capable of running offline completely.
+## JS WHITE NOISE RELAXATION SOUNDS PWA
+This is a Relaxation Sounds Web App (PWA) made in pure HTML, CSS, Javascript. Yes, it is capable of running offline completely.
 <br><br>
 
 ## :camera: SCREENSHOTS
 <p float="left">
-  <img width="250" src="https://github.com/code-boxx/js-sleep-sounds-pwa/blob/main/assets/sleeps-sounds-pwa-1.png">
-  <img width="250" src="https://github.com/code-boxx/js-sleep-sounds-pwa/blob/main/assets/sleeps-sounds-pwa-2.png">
+  <img width="250" src="https://github.com/code-boxx/js-relax-sounds-pwa/blob/main/assets/relax-sounds-pwa-1.png">
+  <img width="250" src="https://github.com/code-boxx/js-relax-sounds-pwa/blob/main/assets/relax-sounds-pwa-2.png">
 </p><br>
 
 ## :ballot_box_with_check: REQUIREMENTS
@@ -15,7 +15,11 @@ This is a Sleep Sounds Web App (PWA) made in pure HTML, CSS, Javascript. Yes, it
 <br><br>
 
 ## :bulb: DOCUMENTATION
-Please visit https://code-boxx.com/javascript-sleep-sounds-pwa/ for the documentation.
+Please visit https://code-boxx.com/javascript-relax-sounds-pwa/ for the documentation.
+<br><br>
+
+## :star: SUPPORT
+Like this project? Just give it a star. That will indirectly help grow my blog a little bit. :wink:
 <br><br>
 
 ## :newspaper: LICENSE

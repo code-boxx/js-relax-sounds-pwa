@@ -1,6 +1,6 @@
 {
-  "short_name": "Sleep",
-  "name": "JS Sleep",
+  "short_name": "JS Relaxation",
+  "name": "JS Relaxation",
   "icons": [{
     "src": "assets/favicon.png",
     "sizes": "64x64",
@@ -10,7 +10,7 @@
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "start_url": "js-sleep-sounds.html",
+  "start_url": "js-relax.html",
   "scope": "/",
   "background_color": "white",
   "theme_color": "white",

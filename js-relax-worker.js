@@ -2,20 +2,23 @@
 self.addEventListener("install", evt => {
   self.skipWaiting();
   evt.waitUntil(
-    caches.open("JSSleep")
+    caches.open("JSRelax")
     .then(cache => cache.addAll([
-      // (A1) APP
       "assets/favicon.png",
       "assets/icon-512.png",
+      "assets/head-pwa-relax.webp",
       "assets/maticon.woff2",
-      "assets/js-sleep-sounds.css",
-      "assets/js-sleep-sounds.js",
-      "CB-manifest.json",
-      "js-sleep-sounds.html",
-      // (A2) SOUNDS
-      "assets/chimes.mp3",
-      "assets/crickets.mp3",
-      "assets/rain.mp3"
+      "assets/js-relax.css",
+      "assets/js-relax-sounds.js",
+      "assets/js-relax.js",
+      "js-relax-manifest.json",
+      "js-relax.html",
+      "assets/bird.webm",
+      "assets/campfire.webm",
+      "assets/chimes.webm",
+      "assets/crickets.webm",
+      "assets/fountain.webm",
+      "assets/rain.webm"
     ]))
     .catch(err => console.error(err))
   );

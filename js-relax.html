@@ -2,15 +2,15 @@
 <html>
   <head>
     <!-- TITLE + CHARSET + DESCRIPTION + VIEWPORT + FAVICON -->
-    <title>JS Sleep Sounds PWA</title>
+    <title>JS Relaxation Sounds</title>
     <meta charset="utf-8">
-    <meta name="description" content="Offline Javascript Sleep Sounds App">
+    <meta name="description" content="Javascript Relaxation Sounds">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
     <link rel="icon" href="assets/favicon.png" type="image/png">
 
     <!-- WEB APP MANIFEST -->
     <!-- https://web.dev/add-manifest/ -->
-    <link rel="manifest" href="CB-manifest.json">
+    <link rel="manifest" href="js-relax-manifest.json">
 
     <!-- ANDROID + CHROME + APPLE + WINDOWS APP -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -18,33 +18,34 @@
     <link rel="apple-touch-icon" href="assets/icon-512.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="JS Sleep Sounds">
+    <meta name="apple-mobile-web-app-title" content="JS Relax">
     <meta name="msapplication-TileImage" content="assets/icon-512.png">
     <meta name="msapplication-TileColor" content="#ffffff">
 
     <!-- STYLESHEET + JAVASCRIPT -->
-    <link rel="stylesheet" href="assets/js-sleep-sounds.css">
-    <script src="assets/js-sleep-sounds.js"></script>
+    <link rel="stylesheet" href="assets/js-relax.css">
+    <script defer src="assets/js-relax-sounds.js"></script>
+    <script defer src="assets/js-relax.js"></script>
   </head>
   <body>
-    <!-- (A) MAIN SCREEN -->
-    <div id="cb-main"></div>
+    <!-- (A) SOUNDS -->
+    <div id="sWrap"></div>
 
     <!-- (X) ABOUT -->
-    <div id="aboutFoot" onclick="document.getElementById('aboutWrap').show()">
-      <i class="mi">help_outline</i> ABOUT SLEEP SOUNDS PWA
-    </div>
+    <div id="aboutFoot"><span onclick="document.getElementById('aboutWrap').show()">
+        <i class="mi">help_outline</i> ABOUT JS RELAXATION SOUNDS
+    </span></div>
     <dialog id="aboutWrap"><div id="aboutPop">
       <div id="aboutCX" class="mi" onclick="document.getElementById('aboutWrap').close()">
         clear
       </div>
-      <img src="assets/HEAD-js-sleep-pwa.jpg" id="aboutHead">
+      <img src="assets/head-pwa-relax.webp" id="aboutHead">
 
       <div id="aboutLinks">
         <h3>Links & Documentation</h3>
         <ul>
-          <li><a href="https://code-boxx.com/javascript-sleep-sounds-pwa/" target="_blank">JS Sleep Sounds PWA Official Webpage</a></li>
-          <li><a href="https://github.com/code-boxx/js-sleep-sounds-pwa" target="_blank">JS Sleep Sounds PWA GitHub</a></li>
+          <li><a href="https://code-boxx.com/javascript-relax-sounds-pwa/" target="_blank">Relaxation Sounds PWA Official Webpage</a></li>
+          <li><a href="https://github.com/code-boxx/js-relax-sounds-pwa" target="_blank">Relaxation Sounds PWA GitHub</a></li>
         </ul>
 
         <h3>Socials</h3>
