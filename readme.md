@@ -1,4 +1,4 @@
-## JS WHITE NOISE RELAXATION SOUNDS PWA
+## JS RELAXATION SOUNDS PWA
 This is a Relaxation Sounds Web App (PWA) made in pure HTML, CSS, Javascript. Yes, it is capable of running offline completely.
 <br><br>
 
